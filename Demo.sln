@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.PL", "Demo.PL\Demo.PL.csproj", "{B33287F1-C35F-4C7C-AFDD-B2F6C78D61E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DAL", "Demo.DAL\Demo.DAL.csproj", "{4D909396-BE11-4416-8A34-B29F65AFED98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.BLL", "Demo.BLL\Demo.BLL.csproj", "{CB5C690F-27A9-47D9-8ACA-377E89099CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B33287F1-C35F-4C7C-AFDD-B2F6C78D61E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33287F1-C35F-4C7C-AFDD-B2F6C78D61E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33287F1-C35F-4C7C-AFDD-B2F6C78D61E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33287F1-C35F-4C7C-AFDD-B2F6C78D61E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D909396-BE11-4416-8A34-B29F65AFED98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D909396-BE11-4416-8A34-B29F65AFED98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D909396-BE11-4416-8A34-B29F65AFED98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D909396-BE11-4416-8A34-B29F65AFED98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5C690F-27A9-47D9-8ACA-377E89099CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5C690F-27A9-47D9-8ACA-377E89099CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5C690F-27A9-47D9-8ACA-377E89099CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5C690F-27A9-47D9-8ACA-377E89099CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A34699B-3FD2-4BCE-94E0-66CC915F4F65}
+	EndGlobalSection
+EndGlobal

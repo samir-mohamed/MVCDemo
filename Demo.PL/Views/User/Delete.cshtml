@@ -1,0 +1,15 @@
+﻿@model ApplicationUser
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Are you Sure to Delete this User ?</h1>
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <partial name="PartialViews/_DetailsDeleteUserPartialView"></partial>
+
+    <button type="submit" class="btn btn-primary">Submit</button> |
+    <a asp-action="Index" class="btn btn-light">Cancel</a>
+</form>
